@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 pd.set_option("display.max_rows", None)
-df = pd.read_csv("C:\\Users\\busra\\OneDrive\\Masaüstü\\persona.csv")
+df = pd.read_csv("persona.csv")
 print(df.head())
 print(df.shape)
 print(df.info())
